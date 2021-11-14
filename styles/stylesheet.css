@@ -1,0 +1,98 @@
+body {
+  background-color: #F0F8FF;
+}
+
+h1 {
+  color: dodgerblue;
+  text-align: center;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.title {
+  font-style: normal;
+  font-family: serif;
+  font-size: 27px;
+  text-align: center;
+}
+#menubar {
+  position: relative;
+  font-family: arial;
+  font-size: 16px;
+  text-align: center;
+  list-style-type: square;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  padding: 16px;
+  font-weight: bold;
+  width: 600px;
+  overflow: visible;
+  border-right: 8px;
+  background-color: #48D1CC
+}
+#pagenav {
+  position: relative;
+  font-family: arial;
+  font-size: 16px;
+  text-align: center;
+  list-style-type: square;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  padding: 16px;
+  font-weight: bold;
+  width: 450px;
+  overflow: visible;
+  border-right: 8px;
+  background-color: #48D1CC
+}
+.maincontent {
+  font-family: arial;
+  text-align: justify;
+  text-decoration: inherit;
+}
+section {
+ border: 24px solid dodgerblue;
+ border-radius: 44px;
+ padding: 5px;
+ padding: 1em;
+ margin: 1em;
+ font-weight: bold;
+ color: #000080;
+}
+aside {
+  width: 50%;
+  float: left;
+  display: inline;
+  position: fixed;
+  bottom: 13px;
+  right: 5px;
+  width: 220px;
+  height: 700px;
+  border: 5px solid #73AD21;
+}
+.sideinfo {
+  background-color: lightblue;
+  color: blue;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  background-color: lightblue;
+}
+li {
+  font-size: 25px;
+}
+footer {
+  width: 120%;
+  background-color: #D8BFD8;
+  clear: both;
+}
+.vocabulary {
+  background-color: lightblue;
+  color: black;
+  text-align: left;
+}
