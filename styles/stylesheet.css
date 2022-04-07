@@ -1,7 +1,9 @@
 body {
   background-color: #F0F8FF;
 }
+.flex-container {
 
+}
 h1 {
   color: dodgerblue;
   text-align: center;
@@ -33,6 +35,7 @@ p {
   border-right: 8px;
   background-color: #48D1CC
 }
+
 #pagenav {
   position: relative;
   font-family: arial;
@@ -48,6 +51,22 @@ p {
   overflow: visible;
   border-right: 8px;
   background-color: #48D1CC
+
+}
+.container {
+  height: 50px;
+  width: 100px
+  border: 30px solid red;
+  background: lightblue;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: wrap;
+  display: grid;
+  flex-direction:row;
+  flex-wrap:wrap;
+  flex-flow: row-reverse;
+  align-content: stretch;
+
 }
 .maincontent {
   font-family: arial;
