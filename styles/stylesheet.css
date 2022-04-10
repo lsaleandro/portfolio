@@ -1,5 +1,6 @@
 body {
   background-color: #F0F8FF;
+  font-family: 'Poppins', sans-serif;
 }
 .flex-container {
 
@@ -36,37 +37,28 @@ p {
   background-color: #48D1CC
 }
 
-#pagenav {
-  position: relative;
-  font-family: arial;
-  font-size: 16px;
-  text-align: center;
-  list-style-type: square;
-  text-align: center;
-  display: flex;
-  margin: auto;
-  padding: 16px;
-  font-weight: bold;
-  width: 450px;
-  overflow: visible;
-  border-right: 8px;
-  background-color: #48D1CC
-
-}
 .container {
+  display: inline-block;
+  justify-content: space-between;
+}
+a, button {
+  font-weight: 500;
+  font-size: 30px;
+  color: #0000CD;
+  text-decoration: none;
+  background: lightblue;
+}
+.nav-icon {
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #48D1CC;
+  padding: 0;
+  margin: 10px 50px;
   height: 50px;
   width: 100px
-  border: 30px solid red;
-  background: lightblue;
-  justify-content: space-between;
-  align-items: center;
-  flex-flow: wrap;
-  display: grid;
-  flex-direction:row;
-  flex-wrap:wrap;
-  flex-flow: row-reverse;
-  align-content: stretch;
-
+  border: 50px solid red;
 }
 .maincontent {
   font-family: arial;
