@@ -7,9 +7,20 @@ body {
 }
 h1 {
   color: dodgerblue;
+  background-color: #DCDCDC;
+  box-shadow: 10px 5px 5px #20B2AA;
   text-align: center;
+  width: 500px;
+  height: 50px;
+  transition-property: width;
+  transition-duration: 1s;
+  transition-timing-function: linear;
 }
-
+h1:hover {
+  width: 300px;
+  height: 50px;
+  box-shadow: 10px 5px 5px #20B2AA;
+}
 p {
   font-family: sans-serif;
   font-size: 20px;
@@ -36,17 +47,21 @@ p {
   border-right: 8px;
   background-color: #48D1CC
 }
-
 .container {
   display: inline-block;
   justify-content: space-between;
 }
-a, button {
+a {
   font-weight: 500;
   font-size: 30px;
   color: #0000CD;
   text-decoration: none;
   background: lightblue;
+  transition: all 1s ease-out;
+}
+a:hover {
+  background-color: #fff;
+  color: #FF0000;
 }
 .nav-icon {
   display: inline-block;
@@ -64,6 +79,13 @@ a, button {
   text-align: justify;
   text-decoration: inherit;
 }
+li {
+  transition-property: font-size;
+  transition-duration: 2s;
+}
+li:hover {
+  font-size: 3em;
+}
 section {
  border: 24px solid dodgerblue;
  border-radius: 44px;
@@ -72,6 +94,7 @@ section {
  margin: 1em;
  font-weight: bold;
  color: #000080;
+
 }
 aside {
   width: 50%;
