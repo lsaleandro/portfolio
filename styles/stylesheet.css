@@ -34,6 +34,9 @@ p {
   font-family: sans-serif;
   font-size: 20px;
 }
+p:hover {
+  color: red;
+}
 .title {
   font-style: normal;
   font-family: serif;
@@ -68,9 +71,11 @@ a {
   background: lightblue;
   transition: all 1s ease-out;
 }
-a:hover {
+a:hover, a:active {
   background-color: #fff;
   color: #FF0000;
+  text-decoration: none;
+  font-size: 50px;
 }
 .nav-icon {
   display: inline-block;
